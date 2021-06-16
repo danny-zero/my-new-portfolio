@@ -1,0 +1,32 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    font-family: AnitaSquare;
+    font-size: 2rem;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+.toggler {
+    border-style: none;
+}

@@ -1,0 +1,27 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    right: 0;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer > a:hover {
+  color: dodgerblue;
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+
+@media (max-width: 990px) {
+  .footer {
+    font-size: 1rem;
+  }
+}

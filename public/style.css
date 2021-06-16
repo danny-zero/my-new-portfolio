@@ -1,0 +1,32 @@
+@font-face {
+  font-family: AnitaSquare;
+  src: url(/public/Anita.ttf);
+}
+
+* {
+    padding: 5px;
+}
+
+.typed-cursor {
+  font-size: 25px
+}
+
+.main {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    /* height: 99vh; */
+    height: 100%
+}
+
+.btn-primary a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 990px) {
+  .main {
+    height: 100%;
+  }
+}

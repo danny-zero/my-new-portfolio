@@ -1,0 +1,50 @@
+/* .aboutWrapper {
+    height: 90vh;
+} */
+.aboutContainer {
+    height: calc(100vh - 100px);
+}
+
+h3 {
+    color: white;
+}
+
+.aboutColOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    height: 400px;
+    border-radius: 3%;
+}
+
+.about {
+    color: white;
+    display: flex;
+}
+
+.resumeBtn {
+    /* background-color: dodgerblue; */
+    background-color: transparent;
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+
+.resumeModal {
+    height: 600px;
+}
+
+@media (max-width: 990px) {
+    .aboutContainer {
+        height: 100%;
+    }
+    .about {
+        flex-direction: column;
+    }
+
+    .photo {
+        height: 300px;
+    }
+}

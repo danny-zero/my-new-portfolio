@@ -1,0 +1,44 @@
+.projectsHeader {
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-bottom: 1rem;
+}
+
+.projectRow {
+    display: flex;
+}
+
+.projectImg {
+    /* height: 20rem; */
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.projectImg:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.projectText {
+    color: white;
+}
+
+.projectBtns {
+    display: flex;
+}
+
+.projectBtns > button {
+    margin: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+
+@media (max-width: 990px) {
+  .projectRow {
+    flex-direction: column;
+  }
+}

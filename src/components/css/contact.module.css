@@ -1,0 +1,31 @@
+/* .contact {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    right: 0;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+} */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    height: 90vh;
+}
+
+.contact > a {
+  text-decoration: none;
+  color: white;
+  margin: 2rem;
+}
+
+.contactLink:hover {
+    color: dodgerblue;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
