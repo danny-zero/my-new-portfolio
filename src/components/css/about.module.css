@@ -36,6 +36,12 @@ h3 {
     height: 600px;
 }
 
+.aboutIcons {
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 990px) {
     .aboutContainer {
         height: 100%;
