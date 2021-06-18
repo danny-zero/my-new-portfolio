@@ -4,7 +4,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './css/projects.module.css';
 import { projects } from '../projects';
-import Typist from 'react-typist';
+// import Typist from 'react-typist';
 import Typed from 'typed.js';
 
 const Projects = () => {
