@@ -8,16 +8,6 @@ const TypedReactHooksDemo = () => {
 	const typed = useRef(null);
 
   useEffect(() => {
-    // const options = {
-    // 	strings: [
-    //     "Hi!",
-    //     "I'm Danny, I'm a \n Software Engineer",
-    //     '<a href="#/projects" style="text-decoration: underline dodgerblue">Click here</a> \n to see some of my work'
-    //   ],
-    //   typeSpeed: 50,
-    //   backSpeed: 50,
-    // };
-    
     const options = {
     	strings: [
         "Hi!",
@@ -31,13 +21,6 @@ const TypedReactHooksDemo = () => {
 
     typed.current = new Typed(el.current, options);
 
-    const time = (options.strings.reduce((endGoal, curIter) => {
-      return endGoal + curIter.length 
-    }, 0) * 1.5) * 50
-
-    setTimeout(() => {
-      setShow(true)
-    }, time)
     
     return () => {
       typed.current.destroy();
@@ -48,9 +31,6 @@ const TypedReactHooksDemo = () => {
     <div className={styles.wrap}>
       <div>
         <span className={styles.typeWrap} style={{ whiteSpace: 'pre-wrap', fontSize:'25px' }} ref={el} />
-        {/* {
-        show ? <h4 className="animate__animated animate__fadeIn">Hello</h4> : null
-      } */}
       </div>
     </div>
   );
