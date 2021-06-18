@@ -1,10 +1,19 @@
 const axios = require('axios');
+//for SSL redirect
+const redirectSSL = require("redirect-ssl");
 
 const express = require('express');
 const { static } = express;
 const path = require('path');
 
 const app = express();
+
+// SSL force redirect in production node env
+app.use(
+  redirectSSL.create({
+    enabled: process.env.NODE_ENV === "production",
+  })
+);
 
 app.use('/dist', static(path.join(__dirname, '../dist')));
 app.use('/public', static(path.join(__dirname, '../public')));
