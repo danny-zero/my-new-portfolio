@@ -54,7 +54,6 @@ const About = () => {
                         </div>
                         <br />
                         <p>When I'm not coding I enjoy photography, traveling, reading, martial arts, board sports, and meditating.</p>
-                        {/* <Button className={styles.resumeBtn} onClick={() => setShow(!show)}>Resume</Button> */}
                         <Button className={styles.resumeBtn}>
                           <a href="/public/danny_l_technical_resume.docx.pdf"
                               target="_blank"
