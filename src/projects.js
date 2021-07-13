@@ -24,6 +24,14 @@ export const projects = [
         github: ''
     },
     {
+        title: 'Adventure Blog',
+        description: '',
+        img: '/public/project_photos/jekyll.png',
+        tech: 'Jekyll, Markdown',
+        link: 'https://jekyll-blog-d16428.netlify.app/',
+        github: ''
+    },
+    {
         title: 'Dogwartz Obedience School Network',
         description: '',
         img: '/public/project_photos/dogwartz.png',

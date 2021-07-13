@@ -37,7 +37,7 @@ const About = () => {
                         <span style={{ whiteSpace: 'pre', fontSize:'25px' }} ref={el} />
                         <p>My name is Danny, and I'm a software engineer and photographer living in Miami, FL.</p>
                         <p>Before I became a software engineer I worked in the health industry for 10 years as a pharmacy technician in the in-patient setting of a local children's hospital. I would prepare both IV medication and oral solutions and work with different technologies in the dispensing and inventory management of pharmaceuticals such as Pyxis, DoseEdge, Cerner CPOE, etc. During this time in the healthcare field both in the hospital and attending EMT school&nbsp;I became comfortable in being detail-oriented in a high-stakes environment and working with many different types of professionals.</p>
-                        <p>I graduated Fullstack Academy's software engineering immersive and am experienced in JavaScript, React, Redux, HTML5, CSS3, Sequelize, PostgreSQL, Node, Express, React-Bootstrap, Bootstrap, and AWS S3</p>
+                        <p>I graduated Fullstack Academy's software engineering immersive and am experienced in JavaScript, React, Redux, HTML5, CSS3, Sequelize, PostgreSQL, Node, Express, React-Bootstrap, Bootstrap, AWS S3, and Jekyll</p>
                         <div className={styles.aboutIcons}>
                           <span className="iconify" data-icon="bx:bxl-javascript" data-inline="false"></span>
                           <span className="iconify" data-icon="bx:bxl-react" data-inline="false"></span>
@@ -50,6 +50,7 @@ const About = () => {
                           <span className="iconify" data-icon="simple-icons:express" data-inline="false"></span>
                           <span className="iconify" data-icon="bi:bootstrap" data-inline="false"></span>
                           <span className="iconify" data-icon="simple-icons:amazons3" data-inline="false"></span>
+                          <span class="iconify" data-icon="cib:jekyll" data-inline="false"></span>
                           {/* <span className="iconify" data-icon="cib:gatsby" data-inline="false"></span> */}
                         </div>
                         <br />
