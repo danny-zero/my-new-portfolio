@@ -8,7 +8,15 @@ export const projects = [
         github: 'https://github.com/danny-zero/stackathon-vaccine-passport'
     },
     {
-        title: 'Legion-of-Doom Athletic Footwear',
+        title: 'Attack of the Code',
+        description: 'Broswer based, multiplayer coding challenge game',
+        img: '/public/project_photos/attackofthecode.png',
+        tech: 'Node, Express, React, React Hooks, React-Bootstrap, Socket.io',
+        link: 'https://attack-of-the-code.com',
+        github: 'https://github.com/rebel-alliance-2101/attack-of-the-code'
+    },
+    {
+        title: 'Legion of Doom Athletic Footwear',
         description: '',
         img: '/public/project_photos/grace-shopper.png',
         tech: 'Node, Express, React, React Hooks, React-Bootstrap, Postgresql, Sequelize',
