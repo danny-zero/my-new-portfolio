@@ -9,7 +9,7 @@ export const projects = [
     },
     {
         title: 'Attack of the Code',
-        description: 'Broswer based, multiplayer coding challenge game',
+        description: 'Browser-based, multiplayer coding challenge game',
         img: '/public/project_photos/attackofthecode.png',
         tech: 'Node, Express, React, React Hooks, React-Bootstrap, Socket.io',
         link: 'https://attack-of-the-code.com',
