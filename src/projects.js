@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: 'COVID-19 Vaccine Passport & Tracker',
-        description: '',
+        description: 'Web application used for storing COVID-19 vaccination information, displaying information via QR code, and tracking global case statistics',
         img: '/public/project_photos/stackathon.png',
         tech: 'Node, Express, React, ChartJS, React Hooks, React-Bootstrap, Postgresql, Sequelize',
         link: 'https://stackathon-vaccine-passport.herokuapp.com/',
@@ -24,10 +24,18 @@ export const projects = [
         github: 'https://github.com/FSA-legion-of-doom/grace-shopper'
     },
     {
+        title: 'SpaceX Launches',
+        description: 'Displays SpaceX Launch information using GraphQL',
+        img: '/public/project_photos/spacex.png',
+        tech: 'Node, Express, React, React Hooks, Bootstrap, GraphQL',
+        link: 'https://spacex-graphql-project.herokuapp.com/',
+        github: 'https://github.com/danny-zero/spacex-graphql'
+    },
+    {
         title: 'Danny L. Photography',
         description: 'My personal photography portfolio',
         img: '/public/project_photos/bamboo.png',
-        tech: 'Vanilla HTML, CSS, & Javascript',
+        tech: 'HTML, CSS, & Javascript',
         link: 'https://www.dannylphotography.com/',
         github: ''
     },
