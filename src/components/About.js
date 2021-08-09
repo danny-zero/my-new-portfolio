@@ -55,7 +55,7 @@ const About = () => {
                           {/* <span className="iconify" data-icon="cib:gatsby" data-inline="false"></span> */}
                         </div>
                         <br />
-                        <p>When I'm not coding I enjoy photography, traveling, reading, martial arts, board sports, and meditating.</p>
+                        <p>When I'm not coding I enjoy photography, traveling, meditating, reading, slacklining, skateboarding, and martial arts.</p>
                         <Button className={styles.resumeBtn}>
                           <a href="/public/danny_l_technical_resume.pdf"
                               target="_blank"
