@@ -8,7 +8,7 @@ const path = require('path');
 
 const app = express();
 
-// SSL force redirect in production node env
+// SSL force redirect in production mode env
 app.use(
   redirectSSL.create({
     enabled: process.env.NODE_ENV === "production",
