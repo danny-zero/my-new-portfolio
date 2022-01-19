@@ -12,7 +12,7 @@ export const projects = [
         description: 'Browser-based, multiplayer coding challenge game',
         img: '/public/project_photos/attackofthecode.png',
         tech: 'Node, Express, React, React Hooks, React-Bootstrap, Socket.io',
-        link: 'https://attack-of-the-code.herokuapp.com',
+        link: 'https://attackofthecode.herokuapp.com/',
         github: 'https://github.com/rebel-alliance-2101/attack-of-the-code'
     },
     {
