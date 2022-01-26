@@ -40,19 +40,19 @@ export const projects = [
         github: ''
     },
     {
-        title: 'Adventure Blog',
-        description: '',
-        img: '/public/project_photos/jekyll.png',
-        tech: 'Jekyll, Markdown',
-        link: 'https://jekyll-blog-d16428.netlify.app/',
-        github: ''
-    },
-    {
         title: 'Dogwartz Obedience School Network',
         description: '',
         img: '/public/project_photos/dogwartz.png',
         tech: 'Node, Express, React, Redux, Thunks, Postgresql, Sequelize',
         link: 'https://jpfp-dogwartz.herokuapp.com/',
         github: 'https://github.com/danny-zero/JPFP'
+    },
+    {
+        title: 'Adventure Blog',
+        description: '',
+        img: '/public/project_photos/jekyll.png',
+        tech: 'Jekyll, Markdown',
+        link: 'https://jekyll-blog-d16428.netlify.app/',
+        github: ''
     },
 ]
