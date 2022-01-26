@@ -1,6 +1,6 @@
 export const projects = [
     {
-        title: 'COVID-19 Vaccine Passport & Tracker',
+        title: 'COVID-19 Case Tracker & Vaccine Passport',
         description: 'Web application used for storing COVID-19 vaccination information, displaying information via QR code, and tracking global case statistics',
         img: '/public/project_photos/stackathon.png',
         tech: 'Node, Express, React, ChartJS, React Hooks, React-Bootstrap, Postgresql, Sequelize',
