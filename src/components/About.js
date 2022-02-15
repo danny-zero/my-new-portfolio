@@ -31,7 +31,7 @@ const About = () => {
             <Container className={styles.aboutContainer}>
                 <Row className={styles.about}>
                     <Col className={styles.aboutColOne}>
-                    <img className={cx(styles.photo, "animate__animated animate__fadeIn")} src="/public/portraits/new_portrait.jpg"/>
+                    <img className={styles.photo} src="/public/portraits/slackline_portrait.jpg"/>
                     </Col>
                     <Col>
                         <span style={{ whiteSpace: 'pre', fontSize:'25px' }} ref={el} />
@@ -55,7 +55,7 @@ const About = () => {
                           {/* <span className="iconify" data-icon="cib:gatsby" data-inline="false"></span> */}
                         </div>
                         <br />
-                        <p>When I'm not coding I enjoy photography, traveling, meditating, reading, and slacklining.</p>
+                        <p>When I'm not coding I enjoy photography, traveling, meditating, reading, and balancing on a flat piece of nylon webbing (slacklining).</p>
                         <Button className={styles.resumeBtn}>
                           <a href="/public/danny_l_technical_resume.pdf"
                               target="_blank"
