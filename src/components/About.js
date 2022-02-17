@@ -57,7 +57,7 @@ const About = () => {
                         <br />
                         <p>When I'm not coding I enjoy photography, traveling, meditating, reading, and balancing on a flat piece of nylon webbing (slacklining).</p>
                         <Button className={styles.resumeBtn}>
-                          <a href="/public/resumes/F.pdf"
+                          <a href="/public/resumes/D.pdf"
                               target="_blank"
                               rel="noopener noreferrer">Resume
                           </a>
