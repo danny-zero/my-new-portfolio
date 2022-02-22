@@ -28,4 +28,4 @@ app.use((error, req, res, next) => res.status(500).send(`There was an error ${er
 
 
 const port = process.env.PORT || 3000;
-app.listen(port, ()=> console.log(`listening on port ${port}`));
+app.listen(port, ()=> console.log(`listening on port http://localhost:${port}`));
