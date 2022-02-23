@@ -12,7 +12,7 @@ const TypedReactHooksDemo = () => {
     	strings: [
         "Hi!",
         "I'm Danny, I'm a Software Engineer",
-        '<a href="#/projects" style="text-decoration: underline dodgerblue">Click here</a> to see some of my work'
+        '<a href="#/projects" style="text-decoration: underline dodgerblue">Check out some of my work</a>'
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -20,7 +20,6 @@ const TypedReactHooksDemo = () => {
 
 
     typed.current = new Typed(el.current, options);
-
     
     return () => {
       typed.current.destroy();
