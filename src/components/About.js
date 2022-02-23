@@ -31,13 +31,16 @@ const About = () => {
             <Container className={styles.aboutContainer}>
                 <Row className={styles.about}>
                     <Col className={styles.aboutColOne}>
-                    <img className={styles.photo} src="/public/portraits/slackline_portrait.jpg"/>
+                    <img className={styles.photo} src="/public/portraits/IMG_6384-2.jpg"/>
                     </Col>
                     <Col>
                         <span style={{ whiteSpace: 'pre', fontSize:'25px' }} ref={el} />
-                        <p>My name is Danny, and I'm a software engineer and photographer living in Miami, FL.</p>
-                        <p>Before I became a software engineer I worked inthe health industry for 10 years as a pharmacy technician in the in-patient setting of a local children's hospital. I would prepare both IV medication and oral solutions and work with different technologies in the dispensing and inventory management of pharmaceuticals such as Pyxis, DoseEdge, Cerner CPOE, etc. During this time in the healthcare field both in the hospital and attending EMT school&nbsp;I became comfortable in being detail-oriented in a high-stakes environment and working with many different types of professionals.</p>
-                        <p>I graduated Fullstack Academy's software engineering immersive and am experienced in JavaScript, React, Redux, HTML5, CSS3, Sass, Sequelize, PostgreSQL, Node, Express, React-Bootstrap, Bootstrap, AWS S3, and Jekyll</p>
+                        <p>My name is Danny, and I'm a Brazilian-American&nbsp;🇧🇷&nbsp; software engineer and photographer living in Miami, FL.</p>
+                        <p>I have a passion for how tech can impact healthcare by increasing access to essential health services.</p>
+                        <p>Before I became a software engineer I worked in the healthcare industry for ten years as a pharmacy technician in the in-patient setting of a local children's hospital.</p>
+                        <p>In 2020 I decided to take the leap and embark on learning to code and enrolled in Fullstack Academy&#39;s Software Engineering immersive program. After graduating, I returned to become a teaching fellow and give back by helping others achieve their software engineering goals while going through the same program I had. In doing so discovered just how rewarding education can be while gaining real world experience in the form of writing software engineering curriculum, leaging live coding demos, spearheadeding a front end assessment preparation lecture and demo, and providing one-on-one as well as group support to over 40 students in RESTful architecture built on Node.js, Express, React, Redux, and Sequelize ORM with PostgreSQL</p>
+                        <p>I look forward to growing in my career and am hoping to make impactful contributions especially in the areas of healthcare and education.</p>
+                        <p>Some of the technologies I'm experienced in:</p>
                         <div className={styles.aboutIcons}>
                           <span className="iconify" data-icon="bx:bxl-javascript" data-inline="false"></span>
                           <span className="iconify" data-icon="bx:bxl-react" data-inline="false"></span>
@@ -55,7 +58,7 @@ const About = () => {
                           {/* <span className="iconify" data-icon="cib:gatsby" data-inline="false"></span> */}
                         </div>
                         <br />
-                        <p>When I'm not coding I enjoy photography, traveling, meditating, reading, and balancing on a flat piece of nylon webbing (slacklining).</p>
+                        <p>When I'm not coding I enjoy photography, meditating, and balancing on a flat piece of nylon webbing (slacklining).</p>
                         <Button className={styles.resumeBtn}>
                           <a href="/public/resumes/danny_lahamar_resume.pdf"
                               target="_blank"

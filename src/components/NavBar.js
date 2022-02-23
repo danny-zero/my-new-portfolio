@@ -12,7 +12,7 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className={styles.toggler}/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto"></Nav>
-                <Nav>
+                <Nav className={styles.navigationAnimation}>
                     <Nav.Link className={styles.navLink} href="#/about">About</Nav.Link>
                     <Nav.Link className={styles.navLink} href="#/projects">Projects</Nav.Link>
                     <Nav.Link className={styles.navLink} href="https://www.dannylphotography.com" target="_blank">Photography</Nav.Link>

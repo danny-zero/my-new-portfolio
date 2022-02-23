@@ -31,14 +31,14 @@ export const projects = [
         link: 'https://spacex-graphql-project.herokuapp.com/',
         github: 'https://github.com/danny-zero/spacex-graphql'
     },
-    {
-        title: 'Danny L. Photography',
-        description: 'My personal photography portfolio',
-        img: '/public/project_photos/bamboo.png',
-        tech: 'HTML, CSS, & Javascript',
-        link: 'https://www.dannylphotography.com/',
-        github: ''
-    },
+    // {
+    //     title: 'Danny L. Photography',
+    //     description: 'My personal photography portfolio',
+    //     img: '/public/project_photos/bamboo.png',
+    //     tech: 'HTML, CSS, & Javascript',
+    //     link: 'https://www.dannylphotography.com/',
+    //     github: ''
+    // },
     {
         title: 'Dogwartz Obedience School Network',
         description: '',
@@ -46,13 +46,5 @@ export const projects = [
         tech: 'Node, Express, React, Redux, Thunks, Postgresql, Sequelize',
         link: 'https://jpfp-dogwartz.herokuapp.com/',
         github: 'https://github.com/danny-zero/JPFP'
-    },
-    {
-        title: 'Adventure Blog',
-        description: '',
-        img: '/public/project_photos/jekyll.png',
-        tech: 'Jekyll, Markdown',
-        link: 'https://jekyll-blog-d16428.netlify.app/',
-        github: ''
-    },
+    }
 ]
