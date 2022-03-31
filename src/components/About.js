@@ -44,6 +44,7 @@ const About = () => {
                         <div className={styles.aboutIcons}>
                           <span className="iconify" data-icon="bx:bxl-javascript" data-inline="false"></span>
                           <span className="iconify" data-icon="bx:bxl-react" data-inline="false"></span>
+                          <span class="iconify" data-icon="tabler:brand-react-native"></span>
                           <span className="iconify" data-icon="simple-icons:redux" data-inline="false"></span>
                           <span className="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
                           <span className="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
@@ -55,6 +56,8 @@ const About = () => {
                           <span className="iconify" data-icon="bi:bootstrap" data-inline="false"></span>
                           <span className="iconify" data-icon="simple-icons:amazons3" data-inline="false"></span>
                           <span className="iconify" data-icon="cib:jekyll" data-inline="false"></span>
+                          <span class="iconify" data-icon="teenyicons:python-outline"></span>
+                          <span class="iconify" data-icon="akar-icons:django-fill"></span>
                           {/* <span className="iconify" data-icon="cib:gatsby" data-inline="false"></span> */}
                         </div>
                         <br />
