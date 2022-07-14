@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import cx from 'classnames'; //A javaScript utility for conditionally joining classNames together
 import Typed from 'typed.js';
 import { Container, Row, Col, Button, Modal } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,7 +7,7 @@ import styles from './css/about.module.css';
 const About = () => {
     const el = useRef(null);
 	  const typed = useRef(null);
-    const [show, setShow] = useState(false)
+    // const [show, setShow] = useState(false)
 
   useEffect(() => {
     const options = {
@@ -62,22 +61,15 @@ const About = () => {
                         </div>
                         <br />
                         <p>When I'm not coding I enjoy photography, meditating, and balancing on a flat piece of nylon webbing (slacklining).</p>
-                        <Button className={styles.resumeBtn}>
+                        {/* <Button className={styles.resumeBtn}>
                           <a href="/public/resumes/danny_lahamar_resume.pdf"
                               target="_blank"
                               rel="noopener noreferrer">Resume
                           </a>
-                        </Button>
+                        </Button> */}
                     </Col>
                 </Row>
             </Container>
-
-            <Modal show={show} onHide={() => setShow(!show)} size="lg">
-              <Modal.Header closeButton></Modal.Header>
-              <Modal.Body>
-                <h1>Resume goes here</h1>
-              </Modal.Body>
-            </Modal>
         </div>
     )
 }
